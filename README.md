@@ -1,6 +1,6 @@
 Homoglyph Shield 🛡️
 
-Protect yourself from homoglyph phishing attacks - sophisticated scams that use lookalike characters to create fake domains.
+Protect yourself from homoglyph phishing attacks that use lookalike characters!
 
 
 Attackers use non-Latin characters that look identical to Latin letters. For example:
