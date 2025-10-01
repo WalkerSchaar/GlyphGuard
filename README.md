@@ -14,16 +14,32 @@ These domains look legitimate but lead to phishing sites.
 
 **Automatic Detection** - Scans all links on every webpage  
 **Real-Time Alerts** - Toast notifications for suspicious domains  
-**Visual Warnings** - Highlights dangerous links in yellow  
+**Visual Warnings** - Highlights dangerous links in yellow
+**Sender Name Protection** - Catches fake display names
+**Body Text Analysis** - Identifies brand impersonation
 **Privacy First** - Zero data collection, 100% local processing  
 **Lightweight** - Minimal performance impact  
 
 ## How It Works
 
-1. Scans link URLs on web pages
-2. Decodes punycode-encoded domains (xn--...)
-3. Detects non-Latin characters in domain names
-4. Highlights suspicious links and shows warnings
+### 1. Link Scanning
+- Scans all `<a href>` tags
+- Decodes punycode domains
+- Detects non-Latin characters
+- Highlights suspicious links
+
+### 2. Text Scanning
+- Monitors email subjects, sender names, and body text
+- Checks for security-related keywords (e.g., "urgent", "verify", "confidential")
+- Checks for brand names (e.g., "PayPal", "Apple", "Google")
+- Only flags when keywords contain non-Latin characters
+- Minimal false positives
+
+### 3. Visual Alerts
+- Yellow highlighting for suspicious links
+- Red highlighting for suspicious text
+- Warning banners above flagged content
+- Toast notifications in top-right corner
 
 
 ### Manual Installation 
