@@ -14,9 +14,9 @@ These domains look legitimate but lead to phishing sites.
 
 **Automatic Detection** - Scans all links on every webpage  
 **Real-Time Alerts** - Toast notifications for suspicious domains  
-**Visual Warnings** - Highlights dangerous links in yellow
-**Sender Name Protection** - Catches fake display names
-**Body Text Analysis** - Identifies brand impersonation
+**Visual Warnings** - Highlights dangerous links in yellow  
+**Sender Name Protection** - Catches fake display names  
+**Body Text Analysis** - Identifies brand impersonation  
 **Privacy First** - Zero data collection, 100% local processing  
 **Lightweight** - Minimal performance impact  
 
