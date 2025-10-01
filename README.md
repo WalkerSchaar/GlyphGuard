@@ -1,4 +1,4 @@
-### Homoglyph Shield 🛡️
+### GlyphGuard 🛡️
 
 Protect yourself from homoglyph phishing attacks that use lookalike characters!
 
@@ -26,12 +26,8 @@ These domains look legitimate but lead to phishing sites.
 3. Detects non-Latin characters in domain names
 4. Highlights suspicious links and shows warnings
 
-## Installation
 
-### From Mozilla Add-ons (Recommended)
-[Link will be added after approval]
-
-### Manual Installation (Development)
+### Manual Installation 
 1. Clone this repository
 2. Download `punycode.js` from the CDN (see instructions)
 3. Open Firefox → `about:debugging` → Load Temporary Add-on
