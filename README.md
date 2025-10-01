@@ -41,13 +41,6 @@ These domains look legitimate but lead to phishing sites.
 - Warning banners above flagged content
 - Toast notifications in top-right corner
 
-
-### Manual Installation 
-1. Clone this repository
-2. Download `punycode.js` from the CDN (see instructions)
-3. Open Firefox → `about:debugging` → Load Temporary Add-on
-4. Select `manifest.json`
-
 ## Privacy
 
 **This extension collects ZERO data.**
