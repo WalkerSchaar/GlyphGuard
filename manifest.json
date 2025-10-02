@@ -1,31 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "GlyphGuard",
-  "version": "1.0.0",
-  "description": "Comprehensive protection against homoglyph phishing attacks. Detects suspicious non-Latin characters in links, email subjects, sender names, and body text that mimic legitimate brands.",
-  "author": "Your Name",
-  "homepage_url": "https://github.com/yourusername/glyphguard",
-  
+  "name": "Mixed Script Link Highlighter",
+  "version": "1.0",
+  "description": "Alerts on links that contain characters from more than one alphabet",
   "icons": {
     "16": "favicon-16x16.png",
-    "48": "favicon-32x32.png"
+    "32": "favicon-32x32.png"
   },
-  
-  "permissions": [],
-  
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["punycode.js", "scanner.js"],
-      "run_at": "document_end",
-      "all_frames": true
+      "js": ["scanner.js"]
     }
-  ],
-  
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "glyphguard@yourdomain.com",
-      "strict_min_version": "109.0"
-    }
-  }
+  ]
 }
