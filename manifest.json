@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Mixed Script Link Highlighter",
+  "name": "GlyphGuard",
   "version": "1.0",
   "description": "Alerts on links that contain characters from more than one alphabet",
   "icons": {
